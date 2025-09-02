@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAD POINT - प्रीमियम कोर्स</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+        :root {
+            --primary-color: #ff0000; /* Red */
+            --background-color: #000000; /* Black */
+            --text-color: #ffffff; /* White */
+            --card-background: #1a1a1a;
+            --disabled-color: #555555;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            background: var(--card-background);
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px 0;
+        }
+
+        .course-section {
+            margin-bottom: 50px;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            color: var(--text-color);
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+        }
+        
+        .center-title {
+            text-align: center;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .video-btn {
+            display: flex;
+            align-items: center;
+            background-color: var(--card-background);
+            color: var(--text-color);
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            border-left: 5px solid var(--primary-color);
+            font-size: 1rem;
+            text-align: left;
+        }
+
+        .video-btn:hover {
+            transform: translateY(-5px);
+            background-color: var(--primary-color);
+        }
+
+        .video-btn i {
+            margin-right: 15px;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .video-btn:hover i {
+            color: var(--text-color);
+        }
+
+        /* Disabled buttons for example.com links */
+        .video-btn.disabled {
+            background-color: var(--disabled-color);
+            border-left: 5px solid #333;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .video-btn.disabled:hover {
+            transform: none;
+            background-color: var(--disabled-color);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--card-background);
+            color: var(--text-color);
+            padding: 30px 0;
+            text-align: center;
+            border-top: 2px solid var(--primary-color);
+        }
+        
+        .footer p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .footer-buttons a {
+            color: var(--text-color);
+            background-color: var(--primary-color);
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .footer-buttons a:hover {
+            background-color: #cc0000;
+        }
+
+        .footer-buttons i {
+            margin-right: 8px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>CAD POINT</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Section 1: Basic Of Jewellery Designing and Software -->
+        <section class="course-section">
+            <div class="center-title">
+                <h2 class="section-title">Basic Of Jewellery Designing and Software</h2>
+            </div>
+            <div class="video-grid">
+                <a href="https://youtu.be/tsyXAIsptqI?si=FiLcHFQMCKVdKEAR" target="_blank" class="video-btn">
+                    <i class="fas fa-play-circle"></i> Jewellery CAD Software Tools
+                </a>
+                <a href="https://youtu.be/SJ0a6VUUPFs?si=szU3p1s6BU8oH4Mi" target="_blank" class="video-btn">
+                    <i class="fas fa-play-circle"></i> Basic Knowledge of CAD Rhino & Matrix Software
+                </a>
+                <a href="https://youtu.be/GWdG1CQYR2E?si=H3f7fKoPigW7lmzQ" target="_blank" class="video-btn">
+                    <i class="fas fa-play-circle"></i> Matrix Software Basic Guide
+                </a>
+            </div>
+        </section>
+
+        <!-- Section 2: Basic 35 Desing for Mastry All Tools and commands -->
+        <section class="course-section">
+            <div class="center-title">
+                <h2 class="section-title">Basic 35 Desing for Mastry All Tools and commands</h2>
+            </div>
+            <div class="video-grid">
+                <a href="https://youtu.be/3iDblQK--NM?si=-vcQIY-SiMuybcng" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 1</a>
+                <a href="https://youtu.be/gG-JSL2l89g?si=y6KcFl5orACQJ2t5" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 2</a>
+                <a href="https://youtu.be/7goMVecRs-8?si=H-mODoZ6gCQpJ5m5" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 3</a>
+                <a href="https://youtu.be/cOjHJrqy9OE?si=h_RLw_ALR4CKUkb3" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 4</a>
+                <a href="https://youtu.be/yG6KwS-WztI?si=6MFB7q7TEaooLX0x" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 5</a>
+                <a href="https://youtu.be/vW-pvghlexM?si=kCfrLSngXlSsgroc" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 6</a>
+                <a href="https://youtu.be/zAW9zFWSbBw?si=RyJKeFvzRTX3QkTt" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 7</a>
+                <a href="https://youtu.be/-Xuu4Deh9do?si=JdZV60adS3fpt9BL" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 8</a>
+                <a href="https://youtu.be/06I9cl6OAas?si=FTy0r4tecOAEuv7D" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 9</a>
+                <a href="https://youtu.be/wpP2CJrdcV0?si=KeVDtvP4wnHv1KhS" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 10</a>
+                <a href="https://youtu.be/hcMNQIBRL1w?si=sny1EPrgF86e-vk8" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 11</a>
+                <a href="https://youtu.be/5UVNrykpqxs?si=UGbJ_Qi-nlOfqs3I" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 12</a>
+                <a href="https://youtu.be/mKfMyDKv5Is?si=EA6SucCmsBWEi76b" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 13</a>
+                <a href="https://youtu.be/TYy83aU1hCg?si=Pk-5J5mZUT3J4N1g" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 14</a>
+                <a href="https://youtu.be/TYy83aU1hCg?si=fsI2kXbxp5jdX9l_" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 15</a>
+                <a href="https://youtu.be/-GW1cX7BS_U?si=3pOwaf93kd22sWXU" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 16</a>
+                <a href="https://youtu.be/1_c_c23rn1E?si=v72tEyjdqDOfuX7e" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 17</a>
+                <a href="https://youtu.be/nkMVvRcRNVI?si=4cgdegc6sUHg34q7" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 18</a>
+                <a href="https://youtu.be/uk-QKn8r60Q?si=WXwWnFFWeLHSe-NI" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 19</a>
+                <a href="https://youtu.be/4ALAJJ3j6RY?si=_KFGPLlhtMpNvxq6" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 20</a>
+                <a href="https://youtu.be/zMtrJcz_9GU?si=TwMHstrTK5Vtad4I" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 21</a>
+                <a href="https://youtu.be/pXJCcEhiGGA?si=VTnMEJ2bEa_-2Rzj" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 22</a>
+                <a href="https://youtu.be/8ISZQA-j430?si=30O9760f1gOlBxKJ" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 23</a>
+                <a href="https://youtu.be/Q1B-5ivGFZs?si=mwprorkG_oo11AMG" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 24</a>
+                <a href="https://youtu.be/5ca-vI91LUE?si=dCYXvodX3tqXwvKZ" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 25</a>
+                <a href="https://youtu.be/xjuczNiUYnQ?si=2L6mANdS48bYpZbB" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 26</a>
+                <a href="https://youtu.be/TgLVOp_7DpU?si=PBFArUjnjL3Qfxu6" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 27</a>
+                <a href="https://youtu.be/m-71AaU-WoY?si=jULT6XU-Tw6cEha3" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Ring Design No. 28</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 29</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 30</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 31</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 32</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 33</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 34</a>
+                <a href="#" class="video-btn disabled"><i class="fas fa-play-circle"></i> Ring Design No. 35</a>
+            </div>
+        </section>
+
+        <!-- Section 3: Advance (Setting) -->
+        <section class="course-section">
+            <div class="center-title">
+                <h2 class="section-title">Advance (Setting)</h2>
+            </div>
+            <div class="video-grid">
+                <a href="https://youtu.be/dxS8HJs3DeE?si=rV3Z-WinpGOMgPQl" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Plate Prong Setting (Basic)</a>
+                <a href="https://youtu.be/FP4-PYGcTmA?si=-LJHSepdlK0OsUVp" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Plate Prong Setting (Advance)</a>
+                <a href="https://youtu.be/UP8mxo2lnlo?si=S_bYfBS2IP2hPyh8" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Pave Setting</a>
+                <a href="https://youtu.be/XK6PsPrnppA?si=d3DuXIY4UA1J4nRa" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Bezel Setting</a>
+                <a href="https://youtu.be/UrNCQLpJ81I?si=TtG8P6cbarhXSbrU" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Channel Setting</a>
+                <a href="https://youtu.be/HhnyZdCyIss?si=ozLZFH2JXImqEFwI" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Flush Setting</a>
+                <a href="https://youtu.be/JVpFKlghFfg?si=k8f3uihEA62xcE9P" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Pressure Setting</a>
+                <a href="https://youtu.be/DOnuJTlq-tE?si=gOaXGLzlr9jZR00P" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Micro Setting (Basic)</a>
+                <a href="https://youtu.be/7seG6Q_9svI?si=rEEcipxHGGOoThSU" target="_blank" class="video-btn"><i class="fas fa-play-circle"></i> Micro Setting (Advance)</a>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>सहायता के लिए संपर्क करें</p>
+            <div class="footer-buttons">
+                <a href="tel:+919136615110">
+                    <i class="fas fa-phone-alt"></i> Call Now
+                </a>
+                <a href="https://wa.me/919136615110" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
